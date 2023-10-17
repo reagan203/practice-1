@@ -1,0 +1,120 @@
+ /* Set the background image */
+ body {
+    background-image: url('https://wallpapers.com/images/featured/cool-helicopter-pictures-um58c9w618viu3yo.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+  }
+
+/* Style the header */
+h1 {
+    text-align: center;
+    background-color: #08080891;
+    color: #e6bdbd;
+    padding: 20px;
+  }  
+
+/* Style the header */
+h2 {
+    text-align: center;
+    background-color: #0000007e;
+    color: #e6bdbd;
+    padding: 10px;
+  }  
+
+/* Style the header */
+h3 {
+    text-align: left;
+    background-color: #0000007e;
+    color: #181515;
+    padding: 5px;
+  }  
+
+/* Style the navigation buttons */
+#box1 button {
+    background-color: #020202c4;
+    color: #090414e1;
+    border: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+  }  
+ 
+/* Style the navigation buttons */
+  #back{
+    text-align: center;
+    background-color: #3333333b;
+    color: #fff;
+    padding: 10px;
+  }  
+
+ /* Style the items fetched from the API */
+ li {
+    background-image: url(https://media.istockphoto.com/id/523094011/photo/abstract-blue-blur-background.webp?b=1&s=170667a&w=0&k=20&c=WsbQ9i_Ct4sJZ9jFoAckKsXgfk_Q-48W9jAQgFSdVy8=);
+    font-size: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 5px;
+    margin: 0px;
+    padding: 1px;
+  }
+  
+  .like-button, .dislike-button {
+    background-color: #0e0d0dc5;
+    color: #fff;
+    border: bold;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .like-count, .dislike-count {
+    color: #da2222;
+    font-weight: bold;
+  }
+  
+  /* Change the color of the buttons on hover */
+  .like-button:hover {
+    background-color: #db1933;
+  }  
+  .dislike-button:hover{
+    background-color: #db1933;
+  }
+
+/* Style the feedback section */
+#feedback {
+    text-align: center;
+    background-color: #33333349;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Style the comment form */
+  #commentForm {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  #commentText {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  #submitComment {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Style the comment list */
+  .comment {
+    background-color: #cf151557;
+    border: 1px solid #0cff41a1;
+    margin: 10px;
+    padding: 10px;
+  }  

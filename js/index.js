@@ -327,3 +327,29 @@
                 .then(response => response.json())
                 .then(result => renderRobinson(result))
                 .catch(error => console.log('error', error));
+
+                //comment section
+document.addEventListener("DOMContentLoaded", function () {
+  const commentText = document.getElementById("commentText");
+  const submitComment = document.getElementById("submitComment");
+  const commentList = document.getElementById("commentList");
+
+  submitComment.addEventListener("click", function () {
+      // text from the comment input
+      const text = commentText.value;
+
+      // Check if the input is not empty
+      if (text.trim() !== "") {
+          // Create a new comment element
+          const commentElement = document.createElement("div");
+          commentElement.className = "comment";
+          commentElement.textContent = text;
+
+          // Append the comment element to the comment list
+          commentList.appendChild(commentElement);
+
+          // Clear the comment input
+          commentText.value = "";
+      }
+  });
+});
